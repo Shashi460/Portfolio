@@ -9,7 +9,7 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "MERN Stack Developer",
-          "Competitive Programmer"
+          "Competitive programming"
         ],
         autoStart: true,
         loop: true,

@@ -7,10 +7,6 @@
   pointer-events: none;
 }
 
-#profile{
-  border-radius: 50%;
-  background: transparent;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -42,7 +42,7 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-        Hey there, I&apos;m Shashi Ala – a passionate developer, problem solver, and enthusiast for innovation. Welcome to my digital haven!
+        Hey there, I&apos;m Shashi Ala  a passionate developer, problem solver, and enthusiast for innovation. Welcome to my digital haven!
         </Paragraph>
         <Paragraph className=" mt-4">
         Since the beginning of my journey, I&apos;ve been driven by the thrill of transforming ideas into impactful digital solutions. As a developer, I excel at building seamless and scalable applications, combining functionality with intuitive design. My mission is to craft software that not only works efficiently but also delivers an exceptional user experience.
@@ -58,10 +58,10 @@ export default function About() {
         My expertise in tools like the MERN stack, and modern authentication mechanisms like OAuth reflects my commitment to delivering reliable and secure software for everyone.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Through this website, I hope to share my journey, projects, and insights with you. Whether you're a fellow developer looking for ideas, a recruiter scouting talent, or simply curious about my work, there’s something here for everyone.
+        Through this website, I hope to share my journey, projects, and insights with you. Whether you're a fellow developer looking for ideas, a recruiter scouting talent, or simply curious about my work, there&apos;s something here for everyone.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Let’s embark on this adventure of code, creativity, and innovation together. Thank you for stopping by, and I can’t wait to connect with you!
+        Let&apos;s embark on this adventure of code, creativity, and innovation together. Thank you for stopping by, and I can&apos;t wait to connect with you!
         </Paragraph>
       </div>
     </div>

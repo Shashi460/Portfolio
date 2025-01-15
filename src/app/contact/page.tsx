@@ -16,8 +16,10 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <Container>
+      <div className="flex  items-center gap-4" >
       <span className="text-4xl">✉️</span>
-      <Heading className="font-black mb-2">Contact Me</Heading>
+      <Heading className="font-black ">Contact Me</Heading>
+      </div>
       <Paragraph className="mb-10 max-w-xl">
         Reach out to me over email or fill up this contact form. I will get back
         to you ASAP - I promise.{" "}

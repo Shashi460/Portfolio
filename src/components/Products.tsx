@@ -7,7 +7,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
-
 export const Products = () => {
   return (
     <div>
@@ -33,9 +32,9 @@ export const Products = () => {
               <Image
                 src={product.thumbnail}
                 alt="thumbnail"
-                height="200"
-                width="200"
-                className="rounded-md"
+                height="240"
+                width="240"
+                className="rounded-md p-2"
               />
               <div className="flex flex-col justify-between">
                 <div>

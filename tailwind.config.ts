@@ -21,6 +21,19 @@ const config: Config = {
         primary: "var(--neutral-700)",
         secondary: "var(--neutral-500)",
       },
+      animation: {
+        shimmer: "shimmer 2s linear infinite",
+      },
+      keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), addVariablesForColors],

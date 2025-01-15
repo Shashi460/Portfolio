@@ -6,10 +6,12 @@ import sidefolioInfinity from "public/images/SideFolioInfinity.png";
 import sidefolioInfinity2 from "public/images/SideFolioInfinity2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
-
+import promptopiathumbnail from "public/images/promptopiathumbnail.png";
+import promptopiathumbnail2 from "public/images/promptopiathumbnail2.png";
 export const products = [
   {
     href: "https://infinity-three.vercel.app/",
+    codebase:"https://github.com/Shashi460/Infinity",
     title: "Infinity",
     description:
       "A Modern banking application that helps you manage your finances .",
@@ -43,11 +45,12 @@ export const products = [
   },
   {
     href: "https://promptopia-mocha-zeta.vercel.app/",
+    codebase:"https://github.com/Shashi460/Promptopia",
     title: "Promptopia",
     description:
       "AI prompt sharing platform that helps you generate ideas for you.",
     thumbnail: sidefolioPromptopia,
-    images: [sidefolioPromptopia, sidefolioPromptopia2],
+    images: [promptopiathumbnail, promptopiathumbnail2],
     stack: ["Nextjs","Reactjs", "Javascript","MongoDB","Tailwindcss"],
     slug: "Promptopia",
     content: (
@@ -80,30 +83,21 @@ export const products = [
   },
   {
     href: "https://nike-woad-chi.vercel.app",
-    title: "Nike Landin Page",
+    codebase:"https://github.com/Shashi460/Nike",
+    title: "Nike Landing Page",
     description:
       "A modern landing page for Nike shoes.",
     thumbnail: sidefolioNike,
     images: [sidefolioNike, sidefolioNike2],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "Nike Landin Page",
+    slug: "NikeLandingPage",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        Nike’s landing page is a seamless blend of innovation, style, and functionality, designed to captivate and inspire every visitor. The homepage showcases a dynamic, visually engaging layout with bold imagery of their latest products, athletes, and campaigns, creating an immersive experience. A clean and intuitive navigation bar allows users to easily explore categories like footwear, apparel, and accessories, while interactive elements highlight exclusive drops, seasonal collections, and limited-edition collaborations. The strategic use of bold typography and vibrant colors reinforces Nike’s brand identity and energizes the browsing experience..{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          The landing page also emphasizes personalization and connectivity, offering tailored recommendations based on user preferences. Features like “Join Nike” and membership benefits are prominently displayed to encourage engagement and loyalty. With seamless integration of storytelling through inspiring athlete stories, video content, and motivational campaigns, the page not only promotes products but also resonates with the audience’s aspirations. Mobile-optimized design and smooth navigation ensure a consistent, high-quality experience across all devices, embodying Nike’s commitment to empowering every athlete, everywhere.
         </p>{" "}
       </div>
     ),

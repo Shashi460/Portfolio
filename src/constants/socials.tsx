@@ -2,9 +2,6 @@ import {
   IconBrandGithub,
   IconBrandLeetcode,
   IconBrandLinkedin,
-  IconBrandTwitter,
-  IconBrandVscode,
-  IconBrandYoutube,
 } from "@tabler/icons-react";
 
 export const socials = [

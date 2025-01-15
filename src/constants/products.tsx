@@ -1,10 +1,8 @@
 import sidefolioNike from "public/images/SidefolioNike.png";
 import sidefolioNike2 from "public/images/SidefolioNike2.png";
 import sidefolioPromptopia from "public/images/SidefolioPromptopia.png";
-import sidefolioInfinity from "public/images/SideflioInfinity.png";
+import sidefolioInfinity from "public/images/SidefolioInfinity.png";
 import sidefolioInfinity2 from "public/images/SidefolioInfinity2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 import promptopiathumbnail from "public/images/promptopiathumbnail.png";
 import promptopiathumbnail2 from "public/images/promptopiathumbnail2.png";
 export const products = [

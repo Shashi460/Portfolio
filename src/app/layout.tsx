@@ -14,7 +14,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Shashi ala - Developer",
   description:
-    "Shashi ala is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Shashi ala is a Web developer and a problem solver. He loves to build products and web apps that can impact millions of lives.",
+  icons:{
+    icon: "/portfolio_icon.ico" ,
+  }
 };
 
 export default function RootLayout({

@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 
 export  type Product = {
+  codebase: string | undefined;
   title: string;
   description: string;
   thumbnail: StaticImageData;

@@ -1,6 +1,6 @@
 "use client";
 import { navlinks } from "@/constants/navlinks";
-import { Navlink } from "@/types/navlink";
+import { Navlink } from "./types/navlink";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";

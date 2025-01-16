@@ -1,5 +1,5 @@
 "use client";
-import { Product } from "@/types/products";
+import { Product } from "./types/products";
 import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import { Heading } from "./Heading";
@@ -27,7 +27,6 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           duration: 0.5,
         }}
         key={product.slug}
-        className="relative"
       >
         <Image
           src={activeImage}

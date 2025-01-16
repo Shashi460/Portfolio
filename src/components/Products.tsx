@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Heading } from "./Heading";
-import { Product } from "@/types/products";
+import { Product } from "./types/products";
 import { products } from "@/constants/products";
 import Link from "next/link";
 import Image from "next/image";

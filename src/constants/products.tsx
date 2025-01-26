@@ -86,7 +86,7 @@ export const products = [
       "A modern landing page for Nike shoes.",
     thumbnail: sidefolioNike,
     images: [sidefolioNike, sidefolioNike2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Nextjs","Reactjs", "Tailwindcss"],
     slug: "NikeLandingPage",
     content: (
       <div>

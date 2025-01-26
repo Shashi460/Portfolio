@@ -28,7 +28,7 @@ const PdfViewer = ({ pdfUrl }: PdfViewerProps) => {
   return (
     <div className="flex flex-col items-center w-full p-4">
       <div onClick={downloadPdf} className="cursor-pointer w-full text-right mt-4 fixed top-0 right-5">
-        <Button text='Download pdf' />
+        <Button text='Download Resume' />
       </div>
 
       <div className="mt-8 flex flex-col items-center w-full p-6 bg-white shadow-md rounded-md">

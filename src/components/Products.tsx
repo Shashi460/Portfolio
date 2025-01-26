@@ -29,13 +29,14 @@ export const Products = () => {
               key={product.href}
               className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
             >
-              <Image
-                src={product.thumbnail}
-                alt="thumbnail"
-                height="240"
-                width="240"
-                className="rounded-md p-2"
-              />
+              <div className="bg-neutral-100 p-1 rounded-lg ">
+                <Image
+                  src={product.thumbnail}
+                  alt="thumbnail"
+                  height="240"
+                  width="240"
+                />
+              </div>
               <div className="flex flex-col justify-between">
                 <div>
                   <Heading
